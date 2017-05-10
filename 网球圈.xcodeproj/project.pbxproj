@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781158D41EADBB5B0011C3BA /* TCCircleDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 781158D31EADBB5B0011C3BA /* TCCircleDetailModel.m */; };
+		78116BDB1EB82D0E00C00AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78116BD91EB82D0D00C00AA9 /* Main.storyboard */; };
+		78116BDE1EB82D2700C00AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78116BDC1EB82D2700C00AA9 /* LaunchScreen.storyboard */; };
+		781364E61EB8996400310CBD /* TCImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781364E51EB8996400310CBD /* TCImageTableViewCell.m */; };
+		7813FFB01EB0729C00011F57 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7813FFAF1EB0729C00011F57 /* PopoverView.m */; };
+		781B22011E7529010085E2FB /* TCTennisCircleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781B22001E7529010085E2FB /* TCTennisCircleTableViewController.m */; };
+		782112F61E9A274700ACE56E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782112F51E9A274700ACE56E /* CoreLocation.framework */; };
+		782112F81E9A276300ACE56E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782112F71E9A276300ACE56E /* MobileCoreServices.framework */; };
+		782112FA1E9A276D00ACE56E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782112F91E9A276D00ACE56E /* CFNetwork.framework */; };
+		782112FC1E9A279000ACE56E /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 782112FB1E9A279000ACE56E /* libz.1.2.5.tbd */; };
+		782112FE1E9A279E00ACE56E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 782112FD1E9A279E00ACE56E /* libicucore.tbd */; };
+		78405EFF1EADF9F0008A1CA1 /* TCTennisDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405EFE1EADF9F0008A1CA1 /* TCTennisDetailModel.m */; };
+		78405F021EAE4D9C008A1CA1 /* TCFriendDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F011EAE4D9C008A1CA1 /* TCFriendDetailModel.m */; };
+		78405F051EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F041EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.m */; };
+		78405F081EAF0F8C008A1CA1 /* TCPersonInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F071EAF0F8B008A1CA1 /* TCPersonInfoTableViewCell.m */; };
+		78405F0B1EAF1F20008A1CA1 /* TCMyCircleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F0A1EAF1F20008A1CA1 /* TCMyCircleTableViewController.m */; };
+		78405F0E1EAF2070008A1CA1 /* TCMyMatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F0D1EAF2070008A1CA1 /* TCMyMatchTableViewController.m */; };
+		78405F111EAF211B008A1CA1 /* TCMyBallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78405F101EAF211B008A1CA1 /* TCMyBallTableViewController.m */; };
+		7866EDD21EA0B775003CC693 /* TCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866EDD11EA0B775003CC693 /* TCRegisterViewController.m */; };
+		7866EE301EA4880F003CC693 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 7866EE2E1EA4880F003CC693 /* address.json */; };
+		7866EE311EA4880F003CC693 /* hotelcity.json in Resources */ = {isa = PBXBuildFile; fileRef = 7866EE2F1EA4880F003CC693 /* hotelcity.json */; };
+		7866EE371EA4A38C003CC693 /* TCCheckUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866EE361EA4A38C003CC693 /* TCCheckUtil.m */; };
+		787376911E72FA0000294AD3 /* TCGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787376901E72FA0000294AD3 /* TCGuideViewController.m */; };
+		787376A71E73EF6300294AD3 /* Logon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787376A61E73EF6300294AD3 /* Logon.storyboard */; };
+		7891927E1EA8EF8100E75016 /* TCMatchListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7891927D1EA8EF8100E75016 /* TCMatchListTableViewCell.m */; };
+		789192811EA9A38200E75016 /* TCLaunchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 789192801EA9A38200E75016 /* TCLaunchTableViewCell.m */; };
+		78AC18451E8BE972002FCD01 /* TCDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18441E8BE972002FCD01 /* TCDetailTableViewCell.m */; };
+		78AC18481E8C06D9002FCD01 /* TCMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18471E8C06D9002FCD01 /* TCMeTableViewController.m */; };
+		78AC184E1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC184D1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.m */; };
+		78AC18511E8CC313002FCD01 /* TCEditFeelingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18501E8CC313002FCD01 /* TCEditFeelingTableViewController.m */; };
+		78AC18561E8CC819002FCD01 /* ACEExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18531E8CC819002FCD01 /* ACEExpandableTextCell.m */; };
+		78AC18571E8CC819002FCD01 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18551E8CC819002FCD01 /* MyView.m */; };
+		78AC185B1E8D2B87002FCD01 /* TCPublishMatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC185A1E8D2B87002FCD01 /* TCPublishMatchTableViewController.m */; };
+		78AC186F1E8F8598002FCD01 /* TCMatchDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC186E1E8F8598002FCD01 /* TCMatchDetailTableViewController.m */; };
+		78AC18721E8F85FB002FCD01 /* TCPublishTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18711E8F85FB002FCD01 /* TCPublishTableViewController.m */; };
+		78AC18751E909982002FCD01 /* TCFindFriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18741E909982002FCD01 /* TCFindFriendTableViewController.m */; };
+		78AC18781E90A5A8002FCD01 /* TCFriendDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18771E90A5A8002FCD01 /* TCFriendDetailTableViewController.m */; };
+		78AC187B1E90D8D1002FCD01 /* TCFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC187A1E90D8D1002FCD01 /* TCFriendTableViewCell.m */; };
+		78AC187E1E90E12E002FCD01 /* TCFriendDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC187D1E90E12E002FCD01 /* TCFriendDetailTableViewCell.m */; };
+		78AC18811E91200A002FCD01 /* TCLaunchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC18801E91200A002FCD01 /* TCLaunchTableViewController.m */; };
+		78CF314A1EAF43B100565858 /* TCSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CF31491EAF43B100565858 /* TCSettingTableViewController.m */; };
+		78CF31531EAF568800565858 /* TCAlterPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CF31521EAF568800565858 /* TCAlterPasswordViewController.m */; };
+		78EB9DF41EBB518F0096EEA9 /* TCTennisNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB9DF31EBB518F0096EEA9 /* TCTennisNewsViewController.m */; };
+		78EB9DF71EBC6BE60096EEA9 /* TCFriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB9DF61EBC6BE60096EEA9 /* TCFriendModel.m */; };
+		78F246F71EBA13300035A01E /* TCTennisDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F246F61EBA13300035A01E /* TCTennisDetailViewController.m */; };
+		78F246FA1EBA202F0035A01E /* TCMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F246F91EBA202F0035A01E /* TCMessageTableViewCell.m */; };
+		78F246FD1EBA25ED0035A01E /* TCMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F246FC1EBA25ED0035A01E /* TCMessageModel.m */; };
+		78F247001EBACA1B0035A01E /* TCLeaveMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F246FF1EBACA1B0035A01E /* TCLeaveMessageViewController.m */; };
+		950B4BCC1E62B61D007E2986 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B4BCB1E62B61D007E2986 /* libc++.tbd */; };
+		950B4BCE1E62B646007E2986 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B4BCD1E62B646007E2986 /* libsqlite3.0.tbd */; };
+		950B4BDB1E62B7DA007E2986 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B4BD61E62B7DA007E2986 /* libWeChatSDK.a */; };
+		950B4BDC1E62B7DA007E2986 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 950B4BD71E62B7DA007E2986 /* README.txt */; };
+		950B4BF61E67EDE5007E2986 /* TCInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B4BF51E67EDE5007E2986 /* TCInformationViewController.m */; };
+		95D3637A1E627D320052A6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D363791E627D320052A6A8 /* main.m */; };
+		95D3637D1E627D320052A6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D3637C1E627D320052A6A8 /* AppDelegate.m */; };
+		95D363851E627D330052A6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D363841E627D330052A6A8 /* Assets.xcassets */; };
+		95D363901E627D720052A6A8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 95D3638F1E627D720052A6A8 /* Podfile */; };
+		95D363981E62A1720052A6A8 /* TCLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D363971E62A1720052A6A8 /* TCLogonViewController.m */; };
+		95D3639A1E62A2B80052A6A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363991E62A2B80052A6A8 /* SystemConfiguration.framework */; };
+		95D3639C1E62A2C40052A6A8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D3639B1E62A2C40052A6A8 /* Security.framework */; };
+		95D3639E1E62A2D20052A6A8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D3639D1E62A2D20052A6A8 /* CoreTelephony.framework */; };
+		95D363A01E62A2E20052A6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D3639F1E62A2E20052A6A8 /* CoreGraphics.framework */; };
+		95D363A21E62A2EE0052A6A8 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363A11E62A2EE0052A6A8 /* libiconv.tbd */; };
+		95D363A41E62A2FB0052A6A8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363A31E62A2FB0052A6A8 /* libsqlite3.tbd */; };
+		95D363A61E62A3060052A6A8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363A51E62A3060052A6A8 /* libstdc++.tbd */; };
+		95D363A81E62A3130052A6A8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363A71E62A3130052A6A8 /* libz.tbd */; };
+		95D363AB1E62A5710052A6A8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95D363AA1E62A5710052A6A8 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		95D363AD1E62A57E0052A6A8 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D363AC1E62A57E0052A6A8 /* TencentOpenAPI.framework */; };
+		9A3C520F52007FB3A043ED26 /* libPods-网球圈.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E2805FB2A2C012400ABB6C /* libPods-网球圈.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26E2805FB2A2C012400ABB6C /* libPods-网球圈.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-网球圈.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481B243543562139523EEDBF /* Pods-网球圈.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网球圈.debug.xcconfig"; path = "Pods/Target Support Files/Pods-网球圈/Pods-网球圈.debug.xcconfig"; sourceTree = "<group>"; };
+		781158D21EADBB5B0011C3BA /* TCCircleDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCCircleDetailModel.h; path = main/TennisCircle/TCCircleDetailModel.h; sourceTree = "<group>"; };
+		781158D31EADBB5B0011C3BA /* TCCircleDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCCircleDetailModel.m; path = main/TennisCircle/TCCircleDetailModel.m; sourceTree = "<group>"; };
+		78116BDA1EB82D0E00C00AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78116BDD1EB82D2700C00AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		781364E41EB8996400310CBD /* TCImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCImageTableViewCell.h; path = main/TennisCircle/TCImageTableViewCell.h; sourceTree = "<group>"; };
+		781364E51EB8996400310CBD /* TCImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCImageTableViewCell.m; path = main/TennisCircle/TCImageTableViewCell.m; sourceTree = "<group>"; };
+		7813FFAE1EB0729C00011F57 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopoverView.h; path = popoverview/PopoverView.h; sourceTree = "<group>"; };
+		7813FFAF1EB0729C00011F57 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopoverView.m; path = popoverview/PopoverView.m; sourceTree = "<group>"; };
+		781B21FF1E7529010085E2FB /* TCTennisCircleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTennisCircleTableViewController.h; path = main/TennisCircle/TCTennisCircleTableViewController.h; sourceTree = "<group>"; };
+		781B22001E7529010085E2FB /* TCTennisCircleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTennisCircleTableViewController.m; path = main/TennisCircle/TCTennisCircleTableViewController.m; sourceTree = "<group>"; };
+		782112F51E9A274700ACE56E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		782112F71E9A276300ACE56E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		782112F91E9A276D00ACE56E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		782112FB1E9A279000ACE56E /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		782112FD1E9A279E00ACE56E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		78405EFD1EADF9F0008A1CA1 /* TCTennisDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTennisDetailModel.h; path = main/TennisCircle/TCTennisDetailModel.h; sourceTree = "<group>"; };
+		78405EFE1EADF9F0008A1CA1 /* TCTennisDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTennisDetailModel.m; path = main/TennisCircle/TCTennisDetailModel.m; sourceTree = "<group>"; };
+		78405F001EAE4D9C008A1CA1 /* TCFriendDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFriendDetailModel.h; path = main/FindFriend/TCFriendDetailModel.h; sourceTree = "<group>"; };
+		78405F011EAE4D9C008A1CA1 /* TCFriendDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFriendDetailModel.m; path = main/FindFriend/TCFriendDetailModel.m; sourceTree = "<group>"; };
+		78405F031EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPersonInfoTableViewController.h; path = main/Me/TCPersonInfoTableViewController.h; sourceTree = "<group>"; };
+		78405F041EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCPersonInfoTableViewController.m; path = main/Me/TCPersonInfoTableViewController.m; sourceTree = "<group>"; };
+		78405F061EAF0F8B008A1CA1 /* TCPersonInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPersonInfoTableViewCell.h; path = main/Me/TCPersonInfoTableViewCell.h; sourceTree = "<group>"; };
+		78405F071EAF0F8B008A1CA1 /* TCPersonInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCPersonInfoTableViewCell.m; path = main/Me/TCPersonInfoTableViewCell.m; sourceTree = "<group>"; };
+		78405F091EAF1F20008A1CA1 /* TCMyCircleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMyCircleTableViewController.h; path = main/TennisCircle/TCMyCircleTableViewController.h; sourceTree = "<group>"; };
+		78405F0A1EAF1F20008A1CA1 /* TCMyCircleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMyCircleTableViewController.m; path = main/TennisCircle/TCMyCircleTableViewController.m; sourceTree = "<group>"; };
+		78405F0C1EAF2070008A1CA1 /* TCMyMatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMyMatchTableViewController.h; path = main/Me/TCMyMatchTableViewController.h; sourceTree = "<group>"; };
+		78405F0D1EAF2070008A1CA1 /* TCMyMatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMyMatchTableViewController.m; path = main/Me/TCMyMatchTableViewController.m; sourceTree = "<group>"; };
+		78405F0F1EAF211B008A1CA1 /* TCMyBallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMyBallTableViewController.h; path = main/Me/TCMyBallTableViewController.h; sourceTree = "<group>"; };
+		78405F101EAF211B008A1CA1 /* TCMyBallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMyBallTableViewController.m; path = main/Me/TCMyBallTableViewController.m; sourceTree = "<group>"; };
+		7866EDD01EA0B775003CC693 /* TCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCRegisterViewController.h; path = login/TCRegisterViewController.h; sourceTree = "<group>"; };
+		7866EDD11EA0B775003CC693 /* TCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCRegisterViewController.m; path = login/TCRegisterViewController.m; sourceTree = "<group>"; };
+		7866EE2E1EA4880F003CC693 /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = address.json; path = "网球圈/cityJson/address.json"; sourceTree = "<group>"; };
+		7866EE2F1EA4880F003CC693 /* hotelcity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hotelcity.json; path = "网球圈/cityJson/hotelcity.json"; sourceTree = "<group>"; };
+		7866EE351EA4A38C003CC693 /* TCCheckUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCheckUtil.h; sourceTree = "<group>"; };
+		7866EE361EA4A38C003CC693 /* TCCheckUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCheckUtil.m; sourceTree = "<group>"; };
+		7873768F1E72FA0000294AD3 /* TCGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCGuideViewController.h; path = login/TCGuideViewController.h; sourceTree = "<group>"; };
+		787376901E72FA0000294AD3 /* TCGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCGuideViewController.m; path = login/TCGuideViewController.m; sourceTree = "<group>"; };
+		787376A61E73EF6300294AD3 /* Logon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Logon.storyboard; path = main/Logon.storyboard; sourceTree = "<group>"; };
+		7891927C1EA8EF8100E75016 /* TCMatchListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMatchListTableViewCell.h; path = main/PublishMatch/TCMatchListTableViewCell.h; sourceTree = "<group>"; };
+		7891927D1EA8EF8100E75016 /* TCMatchListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMatchListTableViewCell.m; path = main/PublishMatch/TCMatchListTableViewCell.m; sourceTree = "<group>"; };
+		7891927F1EA9A38200E75016 /* TCLaunchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCLaunchTableViewCell.h; path = main/FindFriend/TCLaunchTableViewCell.h; sourceTree = "<group>"; };
+		789192801EA9A38200E75016 /* TCLaunchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCLaunchTableViewCell.m; path = main/FindFriend/TCLaunchTableViewCell.m; sourceTree = "<group>"; };
+		78AC18431E8BE972002FCD01 /* TCDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCDetailTableViewCell.h; path = main/TennisCircle/TCDetailTableViewCell.h; sourceTree = "<group>"; };
+		78AC18441E8BE972002FCD01 /* TCDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCDetailTableViewCell.m; path = main/TennisCircle/TCDetailTableViewCell.m; sourceTree = "<group>"; };
+		78AC18461E8C06D9002FCD01 /* TCMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMeTableViewController.h; path = main/Me/TCMeTableViewController.h; sourceTree = "<group>"; };
+		78AC18471E8C06D9002FCD01 /* TCMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMeTableViewController.m; path = main/Me/TCMeTableViewController.m; sourceTree = "<group>"; };
+		78AC184C1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTennisDetailTableViewCell.h; path = main/TennisCircle/TCTennisDetailTableViewCell.h; sourceTree = "<group>"; };
+		78AC184D1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTennisDetailTableViewCell.m; path = main/TennisCircle/TCTennisDetailTableViewCell.m; sourceTree = "<group>"; };
+		78AC184F1E8CC313002FCD01 /* TCEditFeelingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCEditFeelingTableViewController.h; path = main/TennisCircle/TCEditFeelingTableViewController.h; sourceTree = "<group>"; };
+		78AC18501E8CC313002FCD01 /* TCEditFeelingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCEditFeelingTableViewController.m; path = main/TennisCircle/TCEditFeelingTableViewController.m; sourceTree = "<group>"; };
+		78AC18521E8CC819002FCD01 /* ACEExpandableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEExpandableTextCell.h; path = main/TennisCircle/ACEExpandableTextCell.h; sourceTree = "<group>"; };
+		78AC18531E8CC819002FCD01 /* ACEExpandableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEExpandableTextCell.m; path = main/TennisCircle/ACEExpandableTextCell.m; sourceTree = "<group>"; };
+		78AC18541E8CC819002FCD01 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = main/TennisCircle/MyView.h; sourceTree = "<group>"; };
+		78AC18551E8CC819002FCD01 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = main/TennisCircle/MyView.m; sourceTree = "<group>"; };
+		78AC18591E8D2B87002FCD01 /* TCPublishMatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPublishMatchTableViewController.h; path = main/PublishMatch/TCPublishMatchTableViewController.h; sourceTree = "<group>"; };
+		78AC185A1E8D2B87002FCD01 /* TCPublishMatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCPublishMatchTableViewController.m; path = main/PublishMatch/TCPublishMatchTableViewController.m; sourceTree = "<group>"; };
+		78AC186D1E8F8598002FCD01 /* TCMatchDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMatchDetailTableViewController.h; path = main/PublishMatch/TCMatchDetailTableViewController.h; sourceTree = "<group>"; };
+		78AC186E1E8F8598002FCD01 /* TCMatchDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMatchDetailTableViewController.m; path = main/PublishMatch/TCMatchDetailTableViewController.m; sourceTree = "<group>"; };
+		78AC18701E8F85FB002FCD01 /* TCPublishTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPublishTableViewController.h; path = main/PublishMatch/TCPublishTableViewController.h; sourceTree = "<group>"; };
+		78AC18711E8F85FB002FCD01 /* TCPublishTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCPublishTableViewController.m; path = main/PublishMatch/TCPublishTableViewController.m; sourceTree = "<group>"; };
+		78AC18731E909982002FCD01 /* TCFindFriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFindFriendTableViewController.h; path = main/FindFriend/TCFindFriendTableViewController.h; sourceTree = "<group>"; };
+		78AC18741E909982002FCD01 /* TCFindFriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFindFriendTableViewController.m; path = main/FindFriend/TCFindFriendTableViewController.m; sourceTree = "<group>"; };
+		78AC18761E90A5A8002FCD01 /* TCFriendDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFriendDetailTableViewController.h; path = main/FindFriend/TCFriendDetailTableViewController.h; sourceTree = "<group>"; };
+		78AC18771E90A5A8002FCD01 /* TCFriendDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFriendDetailTableViewController.m; path = main/FindFriend/TCFriendDetailTableViewController.m; sourceTree = "<group>"; };
+		78AC18791E90D8D1002FCD01 /* TCFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFriendTableViewCell.h; path = main/FindFriend/TCFriendTableViewCell.h; sourceTree = "<group>"; };
+		78AC187A1E90D8D1002FCD01 /* TCFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFriendTableViewCell.m; path = main/FindFriend/TCFriendTableViewCell.m; sourceTree = "<group>"; };
+		78AC187C1E90E12E002FCD01 /* TCFriendDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFriendDetailTableViewCell.h; path = main/FindFriend/TCFriendDetailTableViewCell.h; sourceTree = "<group>"; };
+		78AC187D1E90E12E002FCD01 /* TCFriendDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFriendDetailTableViewCell.m; path = main/FindFriend/TCFriendDetailTableViewCell.m; sourceTree = "<group>"; };
+		78AC187F1E912009002FCD01 /* TCLaunchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCLaunchTableViewController.h; path = main/FindFriend/TCLaunchTableViewController.h; sourceTree = "<group>"; };
+		78AC18801E91200A002FCD01 /* TCLaunchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCLaunchTableViewController.m; path = main/FindFriend/TCLaunchTableViewController.m; sourceTree = "<group>"; };
+		78CF31481EAF43B100565858 /* TCSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCSettingTableViewController.h; path = main/Me/TCSettingTableViewController.h; sourceTree = "<group>"; };
+		78CF31491EAF43B100565858 /* TCSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCSettingTableViewController.m; path = main/Me/TCSettingTableViewController.m; sourceTree = "<group>"; };
+		78CF31511EAF568800565858 /* TCAlterPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCAlterPasswordViewController.h; path = main/Me/TCAlterPasswordViewController.h; sourceTree = "<group>"; };
+		78CF31521EAF568800565858 /* TCAlterPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCAlterPasswordViewController.m; path = main/Me/TCAlterPasswordViewController.m; sourceTree = "<group>"; };
+		78EB9DF21EBB518F0096EEA9 /* TCTennisNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTennisNewsViewController.h; path = main/TennisNews/TCTennisNewsViewController.h; sourceTree = "<group>"; };
+		78EB9DF31EBB518F0096EEA9 /* TCTennisNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTennisNewsViewController.m; path = main/TennisNews/TCTennisNewsViewController.m; sourceTree = "<group>"; };
+		78EB9DF51EBC6BE60096EEA9 /* TCFriendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCFriendModel.h; path = main/FindFriend/TCFriendModel.h; sourceTree = "<group>"; };
+		78EB9DF61EBC6BE60096EEA9 /* TCFriendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCFriendModel.m; path = main/FindFriend/TCFriendModel.m; sourceTree = "<group>"; };
+		78F246F51EBA13300035A01E /* TCTennisDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTennisDetailViewController.h; path = main/TennisCircle/TCTennisDetailViewController.h; sourceTree = "<group>"; };
+		78F246F61EBA13300035A01E /* TCTennisDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTennisDetailViewController.m; path = main/TennisCircle/TCTennisDetailViewController.m; sourceTree = "<group>"; };
+		78F246F81EBA202F0035A01E /* TCMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMessageTableViewCell.h; path = main/TennisCircle/TCMessageTableViewCell.h; sourceTree = "<group>"; };
+		78F246F91EBA202F0035A01E /* TCMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMessageTableViewCell.m; path = main/TennisCircle/TCMessageTableViewCell.m; sourceTree = "<group>"; };
+		78F246FB1EBA25ED0035A01E /* TCMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMessageModel.h; path = main/TennisCircle/TCMessageModel.h; sourceTree = "<group>"; };
+		78F246FC1EBA25ED0035A01E /* TCMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMessageModel.m; path = main/TennisCircle/TCMessageModel.m; sourceTree = "<group>"; };
+		78F246FE1EBACA1B0035A01E /* TCLeaveMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCLeaveMessageViewController.h; path = main/TennisCircle/TCLeaveMessageViewController.h; sourceTree = "<group>"; };
+		78F246FF1EBACA1B0035A01E /* TCLeaveMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCLeaveMessageViewController.m; path = main/TennisCircle/TCLeaveMessageViewController.m; sourceTree = "<group>"; };
+		82AE93F96191A971B0A619C6 /* Pods-网球圈.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网球圈.release.xcconfig"; path = "Pods/Target Support Files/Pods-网球圈/Pods-网球圈.release.xcconfig"; sourceTree = "<group>"; };
+		950B4BCB1E62B61D007E2986 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		950B4BCD1E62B646007E2986 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		950B4BD61E62B7DA007E2986 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = login/wechat/libWeChatSDK.a; sourceTree = "<group>"; };
+		950B4BD71E62B7DA007E2986 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = login/wechat/README.txt; sourceTree = "<group>"; };
+		950B4BD81E62B7DA007E2986 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = login/wechat/WechatAuthSDK.h; sourceTree = "<group>"; };
+		950B4BD91E62B7DA007E2986 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = login/wechat/WXApi.h; sourceTree = "<group>"; };
+		950B4BDA1E62B7DA007E2986 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = login/wechat/WXApiObject.h; sourceTree = "<group>"; };
+		950B4BF41E67EDE5007E2986 /* TCInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCInformationViewController.h; path = login/TCInformationViewController.h; sourceTree = "<group>"; };
+		950B4BF51E67EDE5007E2986 /* TCInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCInformationViewController.m; path = login/TCInformationViewController.m; sourceTree = "<group>"; };
+		95D363751E627D320052A6A8 /* 网球圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网球圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D363791E627D320052A6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95D3637B1E627D320052A6A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95D3637C1E627D320052A6A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95D363841E627D330052A6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95D363891E627D330052A6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D3638F1E627D720052A6A8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D363961E62A1720052A6A8 /* TCLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCLogonViewController.h; path = login/TCLogonViewController.h; sourceTree = "<group>"; };
+		95D363971E62A1720052A6A8 /* TCLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCLogonViewController.m; path = login/TCLogonViewController.m; sourceTree = "<group>"; };
+		95D363991E62A2B80052A6A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		95D3639B1E62A2C40052A6A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		95D3639D1E62A2D20052A6A8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		95D3639F1E62A2E20052A6A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95D363A11E62A2EE0052A6A8 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		95D363A31E62A2FB0052A6A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		95D363A51E62A3060052A6A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		95D363A71E62A3130052A6A8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		95D363AA1E62A5710052A6A8 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = login/QQ/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		95D363AC1E62A57E0052A6A8 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = login/QQ/TencentOpenAPI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D363721E627D320052A6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782112FE1E9A279E00ACE56E /* libicucore.tbd in Frameworks */,
+				782112FC1E9A279000ACE56E /* libz.1.2.5.tbd in Frameworks */,
+				782112FA1E9A276D00ACE56E /* CFNetwork.framework in Frameworks */,
+				782112F81E9A276300ACE56E /* MobileCoreServices.framework in Frameworks */,
+				782112F61E9A274700ACE56E /* CoreLocation.framework in Frameworks */,
+				95D363A81E62A3130052A6A8 /* libz.tbd in Frameworks */,
+				950B4BCE1E62B646007E2986 /* libsqlite3.0.tbd in Frameworks */,
+				950B4BCC1E62B61D007E2986 /* libc++.tbd in Frameworks */,
+				95D363A61E62A3060052A6A8 /* libstdc++.tbd in Frameworks */,
+				950B4BDB1E62B7DA007E2986 /* libWeChatSDK.a in Frameworks */,
+				95D363A41E62A2FB0052A6A8 /* libsqlite3.tbd in Frameworks */,
+				95D363A21E62A2EE0052A6A8 /* libiconv.tbd in Frameworks */,
+				95D363A01E62A2E20052A6A8 /* CoreGraphics.framework in Frameworks */,
+				95D363AD1E62A57E0052A6A8 /* TencentOpenAPI.framework in Frameworks */,
+				95D3639E1E62A2D20052A6A8 /* CoreTelephony.framework in Frameworks */,
+				95D3639C1E62A2C40052A6A8 /* Security.framework in Frameworks */,
+				95D3639A1E62A2B80052A6A8 /* SystemConfiguration.framework in Frameworks */,
+				9A3C520F52007FB3A043ED26 /* libPods-网球圈.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102C224B910CA8C023045DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782112FD1E9A279E00ACE56E /* libicucore.tbd */,
+				782112FB1E9A279000ACE56E /* libz.1.2.5.tbd */,
+				782112F91E9A276D00ACE56E /* CFNetwork.framework */,
+				782112F71E9A276300ACE56E /* MobileCoreServices.framework */,
+				782112F51E9A274700ACE56E /* CoreLocation.framework */,
+				950B4BCD1E62B646007E2986 /* libsqlite3.0.tbd */,
+				950B4BCB1E62B61D007E2986 /* libc++.tbd */,
+				95D363A71E62A3130052A6A8 /* libz.tbd */,
+				95D363A51E62A3060052A6A8 /* libstdc++.tbd */,
+				95D363A31E62A2FB0052A6A8 /* libsqlite3.tbd */,
+				95D363A11E62A2EE0052A6A8 /* libiconv.tbd */,
+				95D3639F1E62A2E20052A6A8 /* CoreGraphics.framework */,
+				95D3639D1E62A2D20052A6A8 /* CoreTelephony.framework */,
+				95D3639B1E62A2C40052A6A8 /* Security.framework */,
+				95D363991E62A2B80052A6A8 /* SystemConfiguration.framework */,
+				26E2805FB2A2C012400ABB6C /* libPods-网球圈.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7813FFAD1EB0725800011F57 /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7813FFAE1EB0729C00011F57 /* PopoverView.h */,
+				7813FFAF1EB0729C00011F57 /* PopoverView.m */,
+			);
+			name = PopoverView;
+			sourceTree = "<group>";
+		};
+		781B21FB1E7528110085E2FB /* TennisCircle */ = {
+			isa = PBXGroup;
+			children = (
+				781B21FF1E7529010085E2FB /* TCTennisCircleTableViewController.h */,
+				781B22001E7529010085E2FB /* TCTennisCircleTableViewController.m */,
+				78AC18431E8BE972002FCD01 /* TCDetailTableViewCell.h */,
+				78AC18441E8BE972002FCD01 /* TCDetailTableViewCell.m */,
+				781158D21EADBB5B0011C3BA /* TCCircleDetailModel.h */,
+				781158D31EADBB5B0011C3BA /* TCCircleDetailModel.m */,
+				78F246F51EBA13300035A01E /* TCTennisDetailViewController.h */,
+				78F246F61EBA13300035A01E /* TCTennisDetailViewController.m */,
+				78AC184C1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.h */,
+				78AC184D1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.m */,
+				78405EFD1EADF9F0008A1CA1 /* TCTennisDetailModel.h */,
+				78405EFE1EADF9F0008A1CA1 /* TCTennisDetailModel.m */,
+				78AC184F1E8CC313002FCD01 /* TCEditFeelingTableViewController.h */,
+				78AC18501E8CC313002FCD01 /* TCEditFeelingTableViewController.m */,
+				78AC18521E8CC819002FCD01 /* ACEExpandableTextCell.h */,
+				78AC18531E8CC819002FCD01 /* ACEExpandableTextCell.m */,
+				781364E41EB8996400310CBD /* TCImageTableViewCell.h */,
+				781364E51EB8996400310CBD /* TCImageTableViewCell.m */,
+				78F246F81EBA202F0035A01E /* TCMessageTableViewCell.h */,
+				78F246F91EBA202F0035A01E /* TCMessageTableViewCell.m */,
+				78F246FB1EBA25ED0035A01E /* TCMessageModel.h */,
+				78F246FC1EBA25ED0035A01E /* TCMessageModel.m */,
+				78F246FE1EBACA1B0035A01E /* TCLeaveMessageViewController.h */,
+				78F246FF1EBACA1B0035A01E /* TCLeaveMessageViewController.m */,
+				78AC18541E8CC819002FCD01 /* MyView.h */,
+				78AC18551E8CC819002FCD01 /* MyView.m */,
+			);
+			name = TennisCircle;
+			sourceTree = "<group>";
+		};
+		781B21FC1E7528390085E2FB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				78405F031EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.h */,
+				78405F041EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.m */,
+				78405F061EAF0F8B008A1CA1 /* TCPersonInfoTableViewCell.h */,
+				78405F071EAF0F8B008A1CA1 /* TCPersonInfoTableViewCell.m */,
+				78AC18461E8C06D9002FCD01 /* TCMeTableViewController.h */,
+				78AC18471E8C06D9002FCD01 /* TCMeTableViewController.m */,
+				78405F091EAF1F20008A1CA1 /* TCMyCircleTableViewController.h */,
+				78405F0A1EAF1F20008A1CA1 /* TCMyCircleTableViewController.m */,
+				78405F0C1EAF2070008A1CA1 /* TCMyMatchTableViewController.h */,
+				78405F0D1EAF2070008A1CA1 /* TCMyMatchTableViewController.m */,
+				78405F0F1EAF211B008A1CA1 /* TCMyBallTableViewController.h */,
+				78405F101EAF211B008A1CA1 /* TCMyBallTableViewController.m */,
+				78CF31481EAF43B100565858 /* TCSettingTableViewController.h */,
+				78CF31491EAF43B100565858 /* TCSettingTableViewController.m */,
+				78CF31511EAF568800565858 /* TCAlterPasswordViewController.h */,
+				78CF31521EAF568800565858 /* TCAlterPasswordViewController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		781B21FD1E7528440085E2FB /* TennisNews */ = {
+			isa = PBXGroup;
+			children = (
+				78EB9DF21EBB518F0096EEA9 /* TCTennisNewsViewController.h */,
+				78EB9DF31EBB518F0096EEA9 /* TCTennisNewsViewController.m */,
+			);
+			name = TennisNews;
+			sourceTree = "<group>";
+		};
+		781B21FE1E7528570085E2FB /* PublishMatch */ = {
+			isa = PBXGroup;
+			children = (
+				78AC18591E8D2B87002FCD01 /* TCPublishMatchTableViewController.h */,
+				78AC185A1E8D2B87002FCD01 /* TCPublishMatchTableViewController.m */,
+				7891927C1EA8EF8100E75016 /* TCMatchListTableViewCell.h */,
+				7891927D1EA8EF8100E75016 /* TCMatchListTableViewCell.m */,
+				78AC186D1E8F8598002FCD01 /* TCMatchDetailTableViewController.h */,
+				78AC186E1E8F8598002FCD01 /* TCMatchDetailTableViewController.m */,
+				78AC18701E8F85FB002FCD01 /* TCPublishTableViewController.h */,
+				78AC18711E8F85FB002FCD01 /* TCPublishTableViewController.m */,
+			);
+			name = PublishMatch;
+			sourceTree = "<group>";
+		};
+		7866EE2D1EA487E1003CC693 /* cityJson */ = {
+			isa = PBXGroup;
+			children = (
+				7866EE2E1EA4880F003CC693 /* address.json */,
+				7866EE2F1EA4880F003CC693 /* hotelcity.json */,
+			);
+			name = cityJson;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		78AC18581E8CD036002FCD01 /* FindFriend */ = {
+			isa = PBXGroup;
+			children = (
+				78AC18731E909982002FCD01 /* TCFindFriendTableViewController.h */,
+				78AC18741E909982002FCD01 /* TCFindFriendTableViewController.m */,
+				78AC18791E90D8D1002FCD01 /* TCFriendTableViewCell.h */,
+				78AC187A1E90D8D1002FCD01 /* TCFriendTableViewCell.m */,
+				78EB9DF51EBC6BE60096EEA9 /* TCFriendModel.h */,
+				78EB9DF61EBC6BE60096EEA9 /* TCFriendModel.m */,
+				78AC18761E90A5A8002FCD01 /* TCFriendDetailTableViewController.h */,
+				78AC18771E90A5A8002FCD01 /* TCFriendDetailTableViewController.m */,
+				78AC187C1E90E12E002FCD01 /* TCFriendDetailTableViewCell.h */,
+				78AC187D1E90E12E002FCD01 /* TCFriendDetailTableViewCell.m */,
+				78405F001EAE4D9C008A1CA1 /* TCFriendDetailModel.h */,
+				78405F011EAE4D9C008A1CA1 /* TCFriendDetailModel.m */,
+				78AC187F1E912009002FCD01 /* TCLaunchTableViewController.h */,
+				78AC18801E91200A002FCD01 /* TCLaunchTableViewController.m */,
+				7891927F1EA9A38200E75016 /* TCLaunchTableViewCell.h */,
+				789192801EA9A38200E75016 /* TCLaunchTableViewCell.m */,
+			);
+			name = FindFriend;
+			sourceTree = "<group>";
+		};
+		950B4BCA1E62B515007E2986 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				950B4BD61E62B7DA007E2986 /* libWeChatSDK.a */,
+				950B4BD71E62B7DA007E2986 /* README.txt */,
+				950B4BD81E62B7DA007E2986 /* WechatAuthSDK.h */,
+				950B4BD91E62B7DA007E2986 /* WXApi.h */,
+				950B4BDA1E62B7DA007E2986 /* WXApiObject.h */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		95D3636C1E627D320052A6A8 = {
+			isa = PBXGroup;
+			children = (
+				95D3638F1E627D720052A6A8 /* Podfile */,
+				95D363771E627D320052A6A8 /* 网球圈 */,
+				95D363761E627D320052A6A8 /* Products */,
+				D416CDD91081899108266ADD /* Pods */,
+				102C224B910CA8C023045DBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95D363761E627D320052A6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D363751E627D320052A6A8 /* 网球圈.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D363771E627D320052A6A8 /* 网球圈 */ = {
+			isa = PBXGroup;
+			children = (
+				78116BDC1EB82D2700C00AA9 /* LaunchScreen.storyboard */,
+				7866EE2D1EA487E1003CC693 /* cityJson */,
+				7813FFAD1EB0725800011F57 /* PopoverView */,
+				95D363921E62813F0052A6A8 /* Main */,
+				95D363911E6281340052A6A8 /* Logon */,
+				95D3637B1E627D320052A6A8 /* AppDelegate.h */,
+				95D3637C1E627D320052A6A8 /* AppDelegate.m */,
+				95D363841E627D330052A6A8 /* Assets.xcassets */,
+				95D363891E627D330052A6A8 /* Info.plist */,
+				95D363781E627D320052A6A8 /* Supporting Files */,
+			);
+			path = "网球圈";
+			sourceTree = "<group>";
+		};
+		95D363781E627D320052A6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7866EE351EA4A38C003CC693 /* TCCheckUtil.h */,
+				7866EE361EA4A38C003CC693 /* TCCheckUtil.m */,
+				95D363791E627D320052A6A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95D363911E6281340052A6A8 /* Logon */ = {
+			isa = PBXGroup;
+			children = (
+				78116BD91EB82D0D00C00AA9 /* Main.storyboard */,
+				950B4BCA1E62B515007E2986 /* WeChat */,
+				95D363A91E62A5310052A6A8 /* QQ */,
+				7866EDD01EA0B775003CC693 /* TCRegisterViewController.h */,
+				7866EDD11EA0B775003CC693 /* TCRegisterViewController.m */,
+				7873768F1E72FA0000294AD3 /* TCGuideViewController.h */,
+				787376901E72FA0000294AD3 /* TCGuideViewController.m */,
+				95D363961E62A1720052A6A8 /* TCLogonViewController.h */,
+				95D363971E62A1720052A6A8 /* TCLogonViewController.m */,
+				950B4BF41E67EDE5007E2986 /* TCInformationViewController.h */,
+				950B4BF51E67EDE5007E2986 /* TCInformationViewController.m */,
+			);
+			name = Logon;
+			sourceTree = "<group>";
+		};
+		95D363921E62813F0052A6A8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				781B21FD1E7528440085E2FB /* TennisNews */,
+				781B21FB1E7528110085E2FB /* TennisCircle */,
+				781B21FE1E7528570085E2FB /* PublishMatch */,
+				78AC18581E8CD036002FCD01 /* FindFriend */,
+				781B21FC1E7528390085E2FB /* Me */,
+				787376A61E73EF6300294AD3 /* Logon.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		95D363A91E62A5310052A6A8 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				95D363AC1E62A57E0052A6A8 /* TencentOpenAPI.framework */,
+				95D363AA1E62A5710052A6A8 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		D416CDD91081899108266ADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				481B243543562139523EEDBF /* Pods-网球圈.debug.xcconfig */,
+				82AE93F96191A971B0A619C6 /* Pods-网球圈.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D363741E627D320052A6A8 /* 网球圈 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D3638C1E627D330052A6A8 /* Build configuration list for PBXNativeTarget "网球圈" */;
+			buildPhases = (
+				7A59B7F70CB7C593B471625F /* [CP] Check Pods Manifest.lock */,
+				95D363711E627D320052A6A8 /* Sources */,
+				95D363721E627D320052A6A8 /* Frameworks */,
+				95D363731E627D320052A6A8 /* Resources */,
+				D9C636ADD3C33D2502C3E0F1 /* [CP] Embed Pods Frameworks */,
+				721544E45C7C3A11530ECD3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网球圈";
+			productName = "网球圈";
+			productReference = 95D363751E627D320052A6A8 /* 网球圈.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D3636D1E627D320052A6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kozon app";
+				TargetAttributes = {
+					95D363741E627D320052A6A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D249BRP3HJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95D363701E627D320052A6A8 /* Build configuration list for PBXProject "网球圈" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D3636C1E627D320052A6A8;
+			productRefGroup = 95D363761E627D320052A6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D363741E627D320052A6A8 /* 网球圈 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D363731E627D320052A6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78116BDE1EB82D2700C00AA9 /* LaunchScreen.storyboard in Resources */,
+				787376A71E73EF6300294AD3 /* Logon.storyboard in Resources */,
+				7866EE301EA4880F003CC693 /* address.json in Resources */,
+				95D363851E627D330052A6A8 /* Assets.xcassets in Resources */,
+				78116BDB1EB82D0E00C00AA9 /* Main.storyboard in Resources */,
+				95D363901E627D720052A6A8 /* Podfile in Resources */,
+				95D363AB1E62A5710052A6A8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				950B4BDC1E62B7DA007E2986 /* README.txt in Resources */,
+				7866EE311EA4880F003CC693 /* hotelcity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		721544E45C7C3A11530ECD3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网球圈/Pods-网球圈-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A59B7F70CB7C593B471625F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C636ADD3C33D2502C3E0F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网球圈/Pods-网球圈-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D363711E627D320052A6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787376911E72FA0000294AD3 /* TCGuideViewController.m in Sources */,
+				7891927E1EA8EF8100E75016 /* TCMatchListTableViewCell.m in Sources */,
+				95D3637D1E627D320052A6A8 /* AppDelegate.m in Sources */,
+				78F247001EBACA1B0035A01E /* TCLeaveMessageViewController.m in Sources */,
+				78F246F71EBA13300035A01E /* TCTennisDetailViewController.m in Sources */,
+				7866EE371EA4A38C003CC693 /* TCCheckUtil.m in Sources */,
+				95D3637A1E627D320052A6A8 /* main.m in Sources */,
+				95D363981E62A1720052A6A8 /* TCLogonViewController.m in Sources */,
+				78AC18721E8F85FB002FCD01 /* TCPublishTableViewController.m in Sources */,
+				950B4BF61E67EDE5007E2986 /* TCInformationViewController.m in Sources */,
+				78405F051EAEF9D2008A1CA1 /* TCPersonInfoTableViewController.m in Sources */,
+				78AC18511E8CC313002FCD01 /* TCEditFeelingTableViewController.m in Sources */,
+				78CF31531EAF568800565858 /* TCAlterPasswordViewController.m in Sources */,
+				781158D41EADBB5B0011C3BA /* TCCircleDetailModel.m in Sources */,
+				78EB9DF71EBC6BE60096EEA9 /* TCFriendModel.m in Sources */,
+				78AC187B1E90D8D1002FCD01 /* TCFriendTableViewCell.m in Sources */,
+				78405F081EAF0F8C008A1CA1 /* TCPersonInfoTableViewCell.m in Sources */,
+				78F246FD1EBA25ED0035A01E /* TCMessageModel.m in Sources */,
+				78AC18781E90A5A8002FCD01 /* TCFriendDetailTableViewController.m in Sources */,
+				78F246FA1EBA202F0035A01E /* TCMessageTableViewCell.m in Sources */,
+				7866EDD21EA0B775003CC693 /* TCRegisterViewController.m in Sources */,
+				78AC186F1E8F8598002FCD01 /* TCMatchDetailTableViewController.m in Sources */,
+				78AC18451E8BE972002FCD01 /* TCDetailTableViewCell.m in Sources */,
+				78405F0B1EAF1F20008A1CA1 /* TCMyCircleTableViewController.m in Sources */,
+				789192811EA9A38200E75016 /* TCLaunchTableViewCell.m in Sources */,
+				7813FFB01EB0729C00011F57 /* PopoverView.m in Sources */,
+				78405F021EAE4D9C008A1CA1 /* TCFriendDetailModel.m in Sources */,
+				78EB9DF41EBB518F0096EEA9 /* TCTennisNewsViewController.m in Sources */,
+				78405F111EAF211B008A1CA1 /* TCMyBallTableViewController.m in Sources */,
+				78AC18481E8C06D9002FCD01 /* TCMeTableViewController.m in Sources */,
+				78CF314A1EAF43B100565858 /* TCSettingTableViewController.m in Sources */,
+				78AC187E1E90E12E002FCD01 /* TCFriendDetailTableViewCell.m in Sources */,
+				78405F0E1EAF2070008A1CA1 /* TCMyMatchTableViewController.m in Sources */,
+				78AC184E1E8CBFA3002FCD01 /* TCTennisDetailTableViewCell.m in Sources */,
+				78AC18751E909982002FCD01 /* TCFindFriendTableViewController.m in Sources */,
+				78AC18561E8CC819002FCD01 /* ACEExpandableTextCell.m in Sources */,
+				781B22011E7529010085E2FB /* TCTennisCircleTableViewController.m in Sources */,
+				78405EFF1EADF9F0008A1CA1 /* TCTennisDetailModel.m in Sources */,
+				78AC18811E91200A002FCD01 /* TCLaunchTableViewController.m in Sources */,
+				78AC18571E8CC819002FCD01 /* MyView.m in Sources */,
+				781364E61EB8996400310CBD /* TCImageTableViewCell.m in Sources */,
+				78AC185B1E8D2B87002FCD01 /* TCPublishMatchTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78116BD91EB82D0D00C00AA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78116BDA1EB82D0E00C00AA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78116BDC1EB82D2700C00AA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78116BDD1EB82D2700C00AA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D3638A1E627D330052A6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95D3638B1E627D330052A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D3638D1E627D330052A6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481B243543562139523EEDBF /* Pods-网球圈.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D249BRP3HJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网球圈/login/QQ",
+					"$(PROJECT_DIR)/网球圈/bmob",
+				);
+				INFOPLIST_FILE = "网球圈/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网球圈/login/wechat",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDAutoLayout\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.tennisCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		95D3638E1E627D330052A6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AE93F96191A971B0A619C6 /* Pods-网球圈.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D249BRP3HJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网球圈/login/QQ",
+					"$(PROJECT_DIR)/网球圈/bmob",
+				);
+				INFOPLIST_FILE = "网球圈/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网球圈/login/wechat",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDAutoLayout\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdut.tennisCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D363701E627D320052A6A8 /* Build configuration list for PBXProject "网球圈" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D3638A1E627D330052A6A8 /* Debug */,
+				95D3638B1E627D330052A6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D3638C1E627D330052A6A8 /* Build configuration list for PBXNativeTarget "网球圈" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D3638D1E627D330052A6A8 /* Debug */,
+				95D3638E1E627D330052A6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D3636D1E627D320052A6A8 /* Project object */;
+}
